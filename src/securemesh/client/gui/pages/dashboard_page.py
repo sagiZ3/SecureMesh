@@ -1,4 +1,3 @@
-# pages/dashboard_page.py
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel,
     QTextEdit, QGridLayout, QPushButton
@@ -9,7 +8,7 @@ from PySide6.QtGui import QPainter, QPen, QColor, QPixmap
 
 import random
 
-from widgets.card_frame import CardFrame
+from src.securemesh.client.gui.widgets.card_frame import CardFrame
 
 
 class DashboardPage(QWidget):

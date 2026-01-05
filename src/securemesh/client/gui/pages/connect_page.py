@@ -1,11 +1,10 @@
-# pages/connect_page.py
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QLabel, QGridLayout,
     QLineEdit, QCheckBox, QHBoxLayout, QPushButton
 )
 from PySide6.QtCore import Signal
 
-from client.gui.widgets.card_frame import CardFrame
+from src.securemesh.client.gui.widgets.card_frame import CardFrame
 
 
 class ConnectPage(QWidget):

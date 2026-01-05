@@ -1,4 +1,3 @@
-# widgets/card_frame.py
 from PySide6.QtWidgets import QFrame, QVBoxLayout, QLabel
 
 

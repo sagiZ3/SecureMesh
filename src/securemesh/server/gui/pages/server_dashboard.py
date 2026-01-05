@@ -6,8 +6,8 @@ from PySide6.QtCore import Qt, QTimer
 import random
 import datetime
 
-from widgets.card_frame import CardFrame
-from widgets.status_pill import StatusPill
+from src.securemesh.server.gui.widgets.card_frame import CardFrame
+from src.securemesh.server.gui.widgets.status_pill import StatusPill
 
 class ServerDashboardPage(QWidget):
     def __init__(self, parent=None):

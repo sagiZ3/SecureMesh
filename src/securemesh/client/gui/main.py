@@ -2,11 +2,11 @@ import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QStackedWidget
 from PySide6.QtCore import QTimer, Qt
 
-from client.gui.ui.style import STYLE_SHEET
-from client.gui.ui.background import BackgroundLayer
+from src.securemesh.client.gui.ui.style import STYLE_SHEET
+from src.securemesh.client.gui.ui.background import BackgroundLayer
 
-from client.gui.pages.connect_page import ConnectPage
-from client.gui.pages.dashboard_page import DashboardPage
+from src.securemesh.client.gui.pages.connect_page import ConnectPage
+from src.securemesh.client.gui.pages.dashboard_page import DashboardPage
 
 
 class MainWindow(QMainWindow):

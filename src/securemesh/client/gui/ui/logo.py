@@ -1,4 +1,3 @@
-# ui/logo.py
 from PySide6.QtWidgets import QLabel
 from PySide6.QtGui import QPixmap, QPainter
 from PySide6.QtCore import Qt
